@@ -63,7 +63,7 @@ int main()
 
     // letra j
     p4 = p5 + 1;
-    idade = *p5;
+    idade = *p4;
     // printf("%d \n", idade);
 
     // letra l
@@ -117,7 +117,7 @@ Ao imprimir "idade", o valor de saída será o que está guardado em *p4 e p4 ap
 Ao imprimir "idade", o valor de saída será o que está guardado em *p5 e p5 aponta para "vetor", mas foi incrementado 1 ao valor de p4 (0 + 1). Portanto, o valor da saída será 45, pois é o valor que está guardado na posição 1 de "vetor" */
 
 /* REPSOSTA DA QUESTÃO 4, letra j:
-Ao imprimir "idade", o valor de saída será o que está guardado em *p5 e p5 aponta para "vetor". Portanto, o valor da saída será 45, pois é o valor que está guardado na posição 1 de "vetor" */
+Ao imprimir "idade", o valor de saída será o que está guardado em *p4 e p4 aponta para "vetor". Portanto, o valor da saída será 27, pois é o valor que está guardado na posição 2 de "vetor" */
 
 /* REPSOSTA DA QUESTÃO 4, letra l:
 Inicialmente, p4 está guardando o endereço de memória de "vetor[2]", ao realizar "p4 = p4 - 2;" faz com que p4 agora guarde o endereço de memória de vetor[0], pois decrementou 2 posições no endereço de memória.
